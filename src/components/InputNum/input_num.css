@@ -1,0 +1,29 @@
+.option_input_num_wrap {
+	width: 100%;
+}
+
+.input_num_field {
+	position: relative;
+}
+
+.num_input {
+	width: 100%;
+	margin-top: 0.2em;
+}
+
+.num_input.readonly {
+	background-color: #333;
+	color: #ccc;
+	cursor: default;
+}
+
+.copy_icon {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: var(--al-teal);
+	margin-right: 0.5em;
+}

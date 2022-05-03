@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+/src/GAME_DATA.json
+/src/TASK_DATA.json
