@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/sens-converter/static/css/main.6813e748.css",
-    "main.js": "/sens-converter/static/js/main.6d3219f3.js",
+    "main.css": "/sens-converter/static/css/main.7ca2869e.css",
+    "main.js": "/sens-converter/static/js/main.634ca68b.js",
     "index.html": "/sens-converter/index.html",
-    "main.6813e748.css.map": "/sens-converter/static/css/main.6813e748.css.map",
-    "main.6d3219f3.js.map": "/sens-converter/static/js/main.6d3219f3.js.map"
+    "main.7ca2869e.css.map": "/sens-converter/static/css/main.7ca2869e.css.map",
+    "main.634ca68b.js.map": "/sens-converter/static/js/main.634ca68b.js.map"
   },
   "entrypoints": [
-    "static/css/main.6813e748.css",
-    "static/js/main.6d3219f3.js"
+    "static/css/main.7ca2869e.css",
+    "static/js/main.634ca68b.js"
   ]
 }
