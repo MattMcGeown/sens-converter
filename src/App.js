@@ -43,11 +43,13 @@ function App() {
 
 	// Convert inputCPI to a string in order to limit the number of decimals without rounding
 	useEffect(() => {
-		const cpiCalc = fromOption.dpiRatio / inputCPI / fromInputValue;
+		if (fromInputValue > 0) {
+			const cpiCalc = fromOption.dpiRatio / inputCPI / fromInputValue;
 
-		if (!isNaN(cpiCalc)) {
-			const valueMatch = cpiCalc.toString().match(/^-?\d+(?:\.\d{0,5})?/)[0];
-			setCM360(valueMatch);
+			if (!isNaN(cpiCalc)) {
+				const valueMatch = cpiCalc.toString().match(/^-?\d+(?:\.\d{0,5})?/)[0];
+				setCM360(valueMatch);
+			}
 		}
 	}, [inputCPI, fromOption, fromInputValue]);
 
